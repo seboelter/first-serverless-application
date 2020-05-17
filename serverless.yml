@@ -70,8 +70,8 @@ outputs:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
-    handler: handler.hello
+  recordSongVote:
+    handler: backend/record_song_vote.handler
     events:
       - http:
           path: hello
